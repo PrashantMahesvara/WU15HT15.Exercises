@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalProject.Web", "MinimalProject.Web\MinimalProject.Web.csproj", "{372F6020-DFA9-4E57-8FC0-441D8A1E29C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLHttpRequest.Web", "XMLHttpRequest.Web\XMLHttpRequest.Web.csproj", "{3B40FA05-A2A3-4615-A4EE-7971631F5AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polling.Web", "Polling.Web\Polling.Web.csproj", "{FECCE1F5-86A1-428E-8EE2-F4649981A6E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSockets.Web", "WebSockets.Web\WebSockets.Web.csproj", "{D9FF61A0-DBCE-4E1B-8977-8DAE573EBFC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketClient-Server", "WebSocketClient-Server\WebSocketClient-Server.csproj", "{E6DA0EDF-478B-4BB1-A0AE-30FCBC1D4E61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{372F6020-DFA9-4E57-8FC0-441D8A1E29C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372F6020-DFA9-4E57-8FC0-441D8A1E29C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372F6020-DFA9-4E57-8FC0-441D8A1E29C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372F6020-DFA9-4E57-8FC0-441D8A1E29C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B40FA05-A2A3-4615-A4EE-7971631F5AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B40FA05-A2A3-4615-A4EE-7971631F5AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B40FA05-A2A3-4615-A4EE-7971631F5AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B40FA05-A2A3-4615-A4EE-7971631F5AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECCE1F5-86A1-428E-8EE2-F4649981A6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECCE1F5-86A1-428E-8EE2-F4649981A6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECCE1F5-86A1-428E-8EE2-F4649981A6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECCE1F5-86A1-428E-8EE2-F4649981A6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9FF61A0-DBCE-4E1B-8977-8DAE573EBFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FF61A0-DBCE-4E1B-8977-8DAE573EBFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FF61A0-DBCE-4E1B-8977-8DAE573EBFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FF61A0-DBCE-4E1B-8977-8DAE573EBFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DA0EDF-478B-4BB1-A0AE-30FCBC1D4E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DA0EDF-478B-4BB1-A0AE-30FCBC1D4E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DA0EDF-478B-4BB1-A0AE-30FCBC1D4E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DA0EDF-478B-4BB1-A0AE-30FCBC1D4E61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

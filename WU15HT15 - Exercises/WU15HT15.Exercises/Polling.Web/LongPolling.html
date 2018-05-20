@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX Long Polling</title>
+	<meta charset="utf-8" />
+    <script src="Scripts/jquery-3.1.1.js"></script>
+
+    <script>
+        (function poll() {
+            $.ajax({
+                url: "http://localhost:53350/API/Temperature",
+                type: "GET",
+                success: function (data) {
+                    console.log("polling: " + data);
+                },
+                dataType: "json",
+                complete: setTimeout(function () { poll() }, 5000),
+                timeout: 50000
+        });
+        })();
+    </script>
+</head>
+
+<body>
+
+</body>
+</html>

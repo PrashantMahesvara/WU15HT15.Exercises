@@ -1,0 +1,5 @@
+﻿[
+{"name": "Item1","price": 100},
+{"name": "Item2","price": 900},
+{"name": "Item3","price": 400},
+]

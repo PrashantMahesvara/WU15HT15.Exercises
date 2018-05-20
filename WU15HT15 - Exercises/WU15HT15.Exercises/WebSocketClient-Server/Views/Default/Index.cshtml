@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Direct messages</h2>
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="input-group">
+            <span class="input-group-addon" id="aliasAddon">$</span>
+            <input type="text"
+                   id="alias"
+                   class="form-control"
+                   placeholder="Alias"
+                   aria-describedby="basic-addon">
+            <button type="button" id="connect" class="btn btn-default">Connect</button>
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <form id="messageForm" action="">
+            <div class="input-group">
+                <span class="input-group-group" id="messageAddon">></span>
+                <input type="text"
+                       id="message"
+                       class="form-control"
+                       placeholder="Message"
+                       aria-describedby="basic-addon" />
+            </div>
+        </form>
+    </div>
+    <div class="panel-body">
+        <div id="messages"></div>
+    </div>
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/Core")
+    }
+

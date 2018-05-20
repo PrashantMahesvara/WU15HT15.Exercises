@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX Polling</title>
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script>
+        function getCustomers() {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:53350/API/Customer/",
+                success: function (data) {
+                    document.getElementById("list").innerHTML = data;
+                }
+            });
+        }
+        setInterval(getCustomers, 1000);
+    </script>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div id="list"></div>
+</body>
+</html>
