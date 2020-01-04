@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WU15HT15.DesignPatterns.Adapter.Console", "WU15HT15.DesignPatterns.Adapter.Console\WU15HT15.DesignPatterns.Adapter.Console.csproj", "{DA4EE3C8-9931-4FE2-8B4B-561EE3B8A1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WU15HT15.DesignPatterns.Adapter.Core", "WU15HT15.DesignPatterns.Adapter.Core\WU15HT15.DesignPatterns.Adapter.Core.csproj", "{D76676CD-8CBD-4E63-8BD6-199FEDE1238B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA4EE3C8-9931-4FE2-8B4B-561EE3B8A1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4EE3C8-9931-4FE2-8B4B-561EE3B8A1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4EE3C8-9931-4FE2-8B4B-561EE3B8A1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4EE3C8-9931-4FE2-8B4B-561EE3B8A1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76676CD-8CBD-4E63-8BD6-199FEDE1238B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76676CD-8CBD-4E63-8BD6-199FEDE1238B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76676CD-8CBD-4E63-8BD6-199FEDE1238B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76676CD-8CBD-4E63-8BD6-199FEDE1238B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6639F77D-790B-4996-84F9-D7C5E97B1E53}
+	EndGlobalSection
+EndGlobal
